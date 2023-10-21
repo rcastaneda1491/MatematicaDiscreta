@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.container {
+    width: 90%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.equation {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#setPointsButton {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4560e3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+}
+
+#setPointsButton:hover {
+    background-color: #374baf
+}
+
+#setPointsButton:active {
+    background-color: #2d3d8c;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+svg {
+    max-width: 600px;
+    background-color: white;
+    height: auto;
+}
